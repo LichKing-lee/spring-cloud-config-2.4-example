@@ -10,3 +10,4 @@ spring:
           private-key: |
 
           search-paths: property
+          ignore-local-ssh-settings: true
