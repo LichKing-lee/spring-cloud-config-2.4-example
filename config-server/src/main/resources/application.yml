@@ -11,3 +11,4 @@ spring:
 
           search-paths: property
           ignore-local-ssh-settings: true
+          basedir: temp/

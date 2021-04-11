@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      name: sample
+      uri: "http://localhost:7777"
+    use-legacy-processing: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: env
